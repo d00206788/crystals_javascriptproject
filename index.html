@@ -1,0 +1,353 @@
+<html>
+  <head>
+    <title>Animal Crossing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+
+
+  <div id="mainsidebar" class="sidenav">
+  <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+  <a href="#mainbit">Home</a>
+  <a href="#section1">Beginner Guide</a>
+  <a href="#glossary">Glossary</a>
+  </div>
+
+  <span class="headerside" onclick="openNav()">&#9776; </span>
+  <span class="headersidetext">crystals</span>
+
+
+
+<body>
+<section id="mainbit">
+
+  <div id="main">
+  <div class="main-text">
+    <h2>Welcome</h2>
+    <a href="#section1">Click to begin</a>
+  </div>
+</div>
+
+
+
+  </section>
+
+  <section id="section1">
+    <h2>A Beginner's Guide to Crystals </h2>
+    <h3>The Benefits</h3>
+    <p id="fontsize">The proposed healing benefits of crystals predominantly surround areas of mental wellbeing; including feelings of increased tranquility, positivity and focus, as well as enhanced immunity and natural pain relief.
+  <br><br>Individual crystals are also known to have their own special energies that can align to different areas of your life, with their shape and colour – as well as their type – affecting their influence.</p>
+<button type="button" onclick="increaseFont()">Increase Font Size</button>
+
+<div class="imageslide"><img name="slide"></div>
+
+  </section>
+  
+  <section id="setbgcolorhere">
+
+
+    <h2 id="change-the-font">Popular Crystals</h2>
+
+<button type="button" onclick="changeFont()">Change font</button>
+<br><br>
+
+
+    <div class="imagesection">
+    <div class="imagehover" id="img1">
+    <h3>Jade</h3>
+    <p>longevity, purity, fertility, wisdom, peace</p>
+    </div>
+
+    
+    <div class="imagehover" id="img2">
+    <h3>Citrine</h3>
+    <p>prosperity, creativity, digestion, confidence</p>
+    </div>
+
+
+    <div class="imagehover" id="img3">
+    <h3>Rose Quartz</h3>
+    <p>love, relationships, friendship, fertility, recovery</p>
+    </div>
+
+    
+
+    </div>
+    <br><br>
+    <button type="button" onclick="setBgColor()">Apply a background colour :) </button>
+
+    
+
+
+
+</section>
+
+
+
+
+
+
+
+  <section id="glossary">
+
+    <input id="searchbar" onkeyup="search_crystal()" type="text"
+        name="search" placeholder="Search crystals..">  
+
+
+  <div class="container">
+    <h3 class="title"> Crystals Glossary </h3>
+
+    <div class="crystals_container">
+
+
+      <div class="crystals">
+         <img src="amethyst.png" alt="">
+         <h3>Amethyst</h3>
+   <button id="show-text-button">See More</button>
+   <p id="my-text">naturally relieves anxiety and stress. It balances the emotions, calms the temper and brings a sense of inner peace.</p>  
+    </div>
+
+
+       <div class="crystals">
+         <img src="aqua.png" alt="">
+         <h3>Aqua</h3>
+         <button id="show-text-button2">See More</button>
+        <p id="my-text2">empower and enhance telepathy, clairaudience, clairvoyance, psychic healing, and automatic writing as well as other modalities.</p>
+      </div>
+
+       <div class="crystals">
+         <img src="aventurin.png" alt="">
+         <h3>Aventurine</h3>
+         <button id="show-text-button3">Learn More</button>
+         <p id="my-text3">relieves the tension of migraine headaches and soothes the eyes</p>
+      </div>
+
+
+
+       <div class="crystals">
+         <img src="azurite.png" alt="">
+         <h3>Azurite</h3>
+         <button id="show-text-button4">Learn More</button>
+         <p id="my-text4">aids our understanding of psychic experiences and our ability to verbalise them.</p>
+      </div>
+
+       <div class="crystals">
+         <img src="agate.png" alt="">
+         <h3>Agate</h3>
+         <button id="show-text-button5">Learn More</button>
+         <p id="my-text5"> promotes emotional stability, courage, equilibrium, and persistence in the heart, soul, and essence</p>
+      </div>
+
+      <div class="crystals">
+         <img src="obsidian.png" alt="">
+         <h3>Black Obsidian</h3>
+         <button id="show-text-button6">Learn More</button>
+         <p id="my-text6">gives us the ability to find a clear pathway and to navigate the changes necessary to eliminate ‘dead ends’ from our path.</p>
+      </div>
+
+       <div class="crystals">
+         <img src="bluecalcite.png" alt="">
+         <h3>Blue Calcite</h3>
+         <button id="show-text-button7">Learn More</button>
+         <p id="my-text7">assists in decision-making and clarifies dreams, visions and channelling.</p>
+      </div>
+
+      
+       <div class="crystals">
+         <img src="blueagate.png" alt="">
+         <h3>Blue Agate</h3>
+         <button id="show-text-button8">Learn More</button>
+         <p id="my-text8">helps create a bridge between the physical and the etheric bodies, seeking truth and courage within.</p>
+      </div>
+
+       <div class="crystals">
+         <img src="clearquartz.png" alt="">
+         <h3>Clear Quartz</h3>
+         <button id="show-text-button9">Learn More</button>
+         <p id="my-text9">raises the vibration of the user and opens up the channels for healing and communication</p>
+      </div>
+
+       <div class="crystals">
+         <img src="kunzite.png" alt="">
+         <h3>Kunzite</h3>
+         <button id="show-text-button10">Learn More</button>
+         <p id="my-text10"> appears to have a calming effect on the metabolism and is therefore able to balance out panic attacks and periods of deep stress-related anxiety</p>
+      </div>
+
+       <div class="crystals">
+         <img src="rhodonite.png" alt="">
+         <h3>Rhodonite</h3>
+         <button id="show-text-button11">Learn More</button>
+         <p id="my-text11">helps our reserve and maintains our self-esteem when under pressure.</p>
+      </div>
+
+       <div class="crystals">
+         <img src="tigereye.png" alt="">
+         <h3>Tiger Eye</h3>
+         <button id="show-text-button12">Learn More</button>
+         <p id="my-text12">works on balancing the energy of the lower chakras – base, sacral and solar plexus – as well as stimulating the kundalini energy.</p>
+      </div>
+
+       <div class="crystals">
+         <img src="peridot.png" alt="">
+         <h3>Peridot</h3>
+         <button id="show-text-button13">Learn More</button>
+         <p id="my-text13">helps us to allow ourselves to let go of unnecessary burdens or baggage. It teaches us that the guilt that has been making us hold on to something or someone is simply an illusion of our own making.</p>
+      </div>
+
+       <div class="crystals">
+         <img src="variscite.png" alt="">
+         <h3>Variscite</h3>
+         <button id="show-text-button14">Learn More</button>
+         <p id="my-text14"> crystal to go to when mentally you really want to clean up your act. When you want to be somebody else, release your alto ego or at least feel like the real you. </p>
+      </div>
+    
+
+
+      
+    
+</div>
+</div>
+
+
+</section>
+<section id="forms">
+  <div class="titlefb">
+
+    <h2>Leave some feedback</h2>
+
+  </div>
+
+  <div class="feedbacknumbers">
+
+  
+
+<p>How did you find this website?</p><p>Please input a number between 1 and 10:</p>
+
+
+<input id="number">
+
+<button type="button" onclick="feedback()">Submit</button>
+
+</div>
+
+<div class="feedbackExtra">
+
+<p id="feedbackp"></p>
+
+<input type="text" id="textfeedback" value="Add something Extra...">
+
+
+
+<button onclick="enterFeedback()">Submit</button>
+
+<p id="feedbackEnter"></p>
+</div>
+
+<div class="feedbackCrystal">
+
+<div class="forminputcrystal">
+
+  <br><br>
+
+
+<form name="crystalform" action="" method="GET">
+  Do you have a favourite crystal? Enter it here <br>
+  <input type="text" name="inputbox" value="">
+  <input type="button" name="button" value="Enter" onClick="testResults(this.form)">
+</form>
+</div>
+</div>
+
+</section>
+
+<script>
+
+
+      const showTextButton = document.getElementById("show-text-button");
+      const myText = document.getElementById("my-text"); 
+      showTextButton.addEventListener("click", () => { 
+         myText.style.display = "block"; 
+      });
+      const showTextButton2 = document.getElementById("show-text-button2");
+      const myText2 = document.getElementById("my-text2"); 
+      showTextButton2.addEventListener("click", () => { 
+         myText2.style.display = "block"; 
+      });
+      const showTextButton3 = document.getElementById("show-text-button3");
+      const myText3 = document.getElementById("my-text3"); 
+      showTextButton3.addEventListener("click", () => { 
+         myText3.style.display = "block"; 
+      });
+      const showTextButton4 = document.getElementById("show-text-button4");
+      const myText4 = document.getElementById("my-text4"); 
+      showTextButton4.addEventListener("click", () => { 
+         myText4.style.display = "block"; 
+      });
+      const showTextButton5 = document.getElementById("show-text-button5");
+      const myText5 = document.getElementById("my-text5"); 
+      showTextButton5.addEventListener("click", () => { 
+         myText5.style.display = "block"; 
+      });
+      const showTextButton6 = document.getElementById("show-text-button6");
+      const myText6 = document.getElementById("my-text6"); 
+      showTextButton6.addEventListener("click", () => { 
+         myText6.style.display = "block"; 
+      });
+      const showTextButton7 = document.getElementById("show-text-button7");
+      const myText7 = document.getElementById("my-text7"); 
+      showTextButton7.addEventListener("click", () => { 
+         myText7.style.display = "block"; 
+      });
+      const showTextButton8 = document.getElementById("show-text-button8");
+      const myText8 = document.getElementById("my-text8"); 
+      showTextButton8.addEventListener("click", () => { 
+         myText8.style.display = "block"; 
+      });
+      const showTextButton9 = document.getElementById("show-text-button9");
+      const myText9 = document.getElementById("my-text9"); 
+      showTextButton9.addEventListener("click", () => { 
+         myText9.style.display = "block"; 
+      });
+      const showTextButton10 = document.getElementById("show-text-button10");
+      const myText10 = document.getElementById("my-text10"); 
+      showTextButton10.addEventListener("click", () => { 
+         myText10.style.display = "block"; 
+      });
+      const showTextButton11 = document.getElementById("show-text-button11");
+      const myText11 = document.getElementById("my-text11"); 
+      showTextButton11.addEventListener("click", () => { 
+         myText11.style.display = "block"; 
+      });
+      const showTextButton12 = document.getElementById("show-text-button12");
+      const myText12 = document.getElementById("my-text12"); 
+      showTextButton12.addEventListener("click", () => { 
+         myText12.style.display = "block"; 
+      });
+      const showTextButton13 = document.getElementById("show-text-button13");
+      const myText13 = document.getElementById("my-text13"); 
+      showTextButton13.addEventListener("click", () => { 
+         myText13.style.display = "block"; 
+      });
+      const showTextButton14 = document.getElementById("show-text-button14");
+      const myText14 = document.getElementById("my-text14"); 
+      showTextButton14.addEventListener("click", () => { 
+         myText14.style.display = "block"; 
+      });
+
+
+
+      
+
+
+   </script>
+
+
+</body>
+</html>

@@ -1,0 +1,386 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	margin: auto; 
+	width: 100%;
+	overflow-x: hidden;
+	line-height: 1.6;
+	box-sizing: border-box;
+	padding-bottom: 20px;
+}
+
+
+
+.headerside {
+	color: darkblue;
+	font-size: 60px;
+	cursor:pointer;
+	padding: 20px;
+	text-align: center;
+}
+
+.headersidetext {
+	text-align: center;
+	font-size: 60px;
+}
+
+
+.imageslide {
+	padding-top: 50px;
+}
+
+.imageslide img {
+
+	width: 50%;
+	height: 50%;
+	display: block;
+	text-align: center;
+	margin-left: 28em;
+	border: 2px solid black;
+}
+
+.sidenav {
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: darkblue;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	width: 0; 
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	font-size: 30px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.sidenav a:hover {
+	color: lightblue;
+}
+
+.sidenav .closebutton {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+
+.right {
+	float:right;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  display: inline-block;
+}
+
+.crystals {
+	display: flex;
+	align-items: center;
+}
+
+.crystals h3 {
+	padding: 20px;
+}
+
+.forminputcrystal {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+
+
+
+button {
+	padding: 5px;
+	border: round;
+	font-weight: bold;
+	background-color: lightgrey;
+}
+
+img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#searchbar{
+     padding:15px;
+     border-radius: 10px;
+     margin: 0 auto;
+     display: block;
+     text-align: center;
+   }
+ 
+   input[type=text] {
+      width: 30%;
+ 
+   }
+
+
+ .container{
+   max-width: 1200px;
+   margin:0 auto;
+   padding:3rem 2rem;
+}
+
+.container .title{
+   font-size: 3.5rem;
+   color:#444;
+   margin-bottom: 3rem;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.container .crystals_container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 2fr));
+   gap:5rem;
+}
+
+.imagesection {
+	transition: 0.5s;
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.imagehover {
+	width: 33.3%;
+	text-align: center;
+font-weight: 20px;
+}
+
+.imagehover p{
+
+	opacity: 0;
+	transform:  scale(0);
+	transition: 0.8s;
+	font-size: 2rem;
+	color: white;
+	padding: 70px 0;
+
+}
+
+.imagehover:hover p {
+	opacity: 1;
+	transform: scale(1);
+	transition: 0.8s;
+	font-size: 2rem;
+	color: white;
+		padding: 70px 0;
+  text-align: center;
+}
+
+.imagehover:hover {
+	box-shadow: 0 0 0 200px black rgba(0, 0, 0, 0.9) inset;
+
+}
+
+#img1 {
+	background-image: url("jadesection.jpeg");
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+#img2 {
+	background-image: url("citrine.jpg");
+		width: 100%;
+	height: 100%;
+		background-position: center;
+	background-size: cover;
+}
+
+#img3 {
+	background-image: url("rquartz.jpg");
+			width: 100%;
+	height: 100%;
+		background-position: center;
+	background-size: cover;
+}
+
+
+
+.main {
+	text-align: center;
+
+}
+
+.main h2 {
+	font-size: 78px;
+	font-weight: 600;
+}
+
+.main p {
+	font-size: 20px;
+}
+
+form {
+	width: 50%;
+	text-align: center;
+}
+
+.main-text{
+	font-size: 100px;
+	color: white;
+}
+
+.main-text h2{
+	font-size: 100px;
+}
+
+.main-text a {
+	color: white;
+}
+
+section {
+	min-height: 110vh;
+	text-align: center;
+	padding: 20px;
+	 justify-content: center;
+	 align-content: center;
+}
+
+section:nth-of-type(1){
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("crystalbg.jpg");
+	background-repeat: no-repeat;
+	background-image: cover;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section:nth-of-type(2){
+	background-color:mediumpurple;
+}
+
+section h2 {
+	font-size: 60px;
+}
+
+section h3 {
+	font-size: 30px;
+}
+
+section .cards {
+	display: flex;
+}
+
+section .cards .cardtext {
+	background-color: paleturquoise;
+	margin: 20px;
+	padding: 15px;
+}
+
+@media (max-width: 900px){
+	section .cards {
+		flex-direction: column;
+	}
+
+}
+
+
+
+#my-text {
+	display: none;
+}
+
+#my-text2 {
+	display: none;
+}
+
+#my-text3 {
+	display: none;
+}
+
+#my-text4 {
+	display: none;
+}
+
+#my-text5 {
+	display: none;
+}
+
+#my-text6 {
+	display: none;
+}
+
+#my-text7 {
+	display: none;
+}
+
+#my-text8 {
+	display: none;
+}
+
+#my-text9 {
+	display: none;
+}
+
+#my-text10 {
+	display: none;
+}
+
+#my-text11 {
+	display: none;
+}
+
+#my-text12 {
+	display: none;
+}
+
+#my-text13 {
+	display: none;
+}
+
+#my-text14 {
+	display: none;
+}
+
+#forms {
+	color: rebeccapurple;
+margin-top: 5em;
+	font-size: 20px;
+	min-height: 50vh;
+	text-align: center;
+     padding:15px;
+ 
+
+}
+
+#forms input {
+	height: 30px;
+     width: 30%;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
