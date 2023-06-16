@@ -27,6 +27,8 @@ body {
 
 .imageslide {
 	padding-top: 50px;
+	width: 100%;
+	text-align: center;
 }
 
 .imageslide img {
